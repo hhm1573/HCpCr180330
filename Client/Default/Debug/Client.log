@@ -1,0 +1,5 @@
+﻿  Bazzi.cpp
+c:\users\administrator\desktop\hhm_sr\old\81_sr_kartrider_boss (2)\client\code\bazzi.cpp(785): warning C4715: 'CBazzi::Effect': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\administrator\desktop\hhm_sr\old\81_sr_kartrider_boss (2)\client\code\bazzi.cpp(1645): warning C4715: 'CBazzi::Collision': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  Client.vcxproj -> C:\Users\Administrator\Desktop\HHM_SR\OLD\81_SR_KartRider_Boss (2)\Client\Default\..\Bin\Client.exe
+  Client.vcxproj -> ..\Bin\Client.pdb (Full PDB)

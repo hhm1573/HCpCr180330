@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BDA21DF8-2520-4EA7-B835-4B9DC7FF03C1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>C:\Users\Administrator\Desktop\HHM_SR\ReStart\81_SR_KartRider\Reference\Header;C:\Users\Administrator\Desktop\HHM_SR\ReStart\81_SR_KartRider\Client\Header;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Header;../../Reference/Library;../../Reference/Header;../../Reference/DirectX9/Library;../../Reference/DirectX9/Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../Header;../../Reference/Library;../../Reference/Header;../../Reference/DirectX9/Library;../../Reference/DirectX9/Header;../Bin;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Header\Award_Box.h" />
+    <ClInclude Include="..\Header\Bazzi.h" />
+    <ClInclude Include="..\Header\Bazzi_Ani.h" />
+    <ClInclude Include="..\Header\Bomb_Effect.h" />
+    <ClInclude Include="..\Header\BoosterBox.h" />
+    <ClInclude Include="..\Header\Booster_Effect.h" />
+    <ClInclude Include="..\Header\BossMoney.h" />
+    <ClInclude Include="..\Header\BossStageBG.h" />
+    <ClInclude Include="..\Header\Boss_HP.h" />
+    <ClInclude Include="..\Header\Boss_Skill.h" />
+    <ClInclude Include="..\Header\Camera_Action.h" />
+    <ClInclude Include="..\Header\Camera_Free.h" />
+    <ClInclude Include="..\Header\Camera_MiniMap.h" />
+    <ClInclude Include="..\Header\Camera_Target.h" />
+    <ClInclude Include="..\Header\Cloud.h" />
+    <ClInclude Include="..\Header\Color_Paper.h" />
+    <ClInclude Include="..\Header\Crocodile.h" />
+    <ClInclude Include="..\Header\Crocodile_Face.h" />
+    <ClInclude Include="..\Header\Crocodile_Tail.h" />
+    <ClInclude Include="..\Header\Crocodile_Tree.h" />
+    <ClInclude Include="..\Header\Dao.h" />
+    <ClInclude Include="..\Header\DaoIcon.h" />
+    <ClInclude Include="..\Header\Dao_Ani.h" />
+    <ClInclude Include="..\Header\Debugger.h" />
+    <ClInclude Include="..\Header\Devil_Skill.h" />
+    <ClInclude Include="..\Header\Dizni.h" />
+    <ClInclude Include="..\Header\DizniIcon.h" />
+    <ClInclude Include="..\Header\Dizny_Ani.h" />
+    <ClInclude Include="..\Header\EndButton.h" />
+    <ClInclude Include="..\Header\EndCountUI.h" />
+    <ClInclude Include="..\Header\Engine_Effect.h" />
+    <ClInclude Include="..\Header\Enum.h" />
+    <ClInclude Include="..\Header\Extern.h" />
+    <ClInclude Include="..\Header\Fence_Direct1.h" />
+    <ClInclude Include="..\Header\Fence_Direct2.h" />
+    <ClInclude Include="..\Header\Fence_Rot.h" />
+    <ClInclude Include="..\Header\GameObject_Creator.h" />
+    <ClInclude Include="..\Header\GameStartButton.h" />
+    <ClInclude Include="..\Header\GreenBlock.h" />
+    <ClInclude Include="..\Header\House.h" />
+    <ClInclude Include="..\Header\Include.h" />
+    <ClInclude Include="..\Header\ItemBox.h" />
+    <ClInclude Include="..\Header\ItemBox_Effect.h" />
+    <ClInclude Include="..\Header\ItemSlot.h" />
+    <ClInclude Include="..\Header\Item_Banana.h" />
+    <ClInclude Include="..\Header\Item_Booster.h" />
+    <ClInclude Include="..\Header\Item_Cloud.h" />
+    <ClInclude Include="..\Header\Item_Cloud_Small.h" />
+    <ClInclude Include="..\Header\Item_Devil.h" />
+    <ClInclude Include="..\Header\Item_First.h" />
+    <ClInclude Include="..\Header\Item_Icon.h" />
+    <ClInclude Include="..\Header\Item_Magnet.h" />
+    <ClInclude Include="..\Header\Item_Missile.h" />
+    <ClInclude Include="..\Header\Item_UFO.h" />
+    <ClInclude Include="..\Header\Item_Water_Bomb.h" />
+    <ClInclude Include="..\Header\Item_Water_Fly.h" />
+    <ClInclude Include="..\Header\JumpBox.h" />
+    <ClInclude Include="..\Header\KartRiderSign.h" />
+    <ClInclude Include="..\Header\LapsUI.h" />
+    <ClInclude Include="..\Header\Loading.h" />
+    <ClInclude Include="..\Header\Loading_BG.h" />
+    <ClInclude Include="..\Header\Loading_Img.h" />
+    <ClInclude Include="..\Header\Logo_BG.h" />
+    <ClInclude Include="..\Header\MainApp.h" />
+    <ClInclude Include="..\Header\MediaHouse.h" />
+    <ClInclude Include="..\Header\MediaHouseTile1.h" />
+    <ClInclude Include="..\Header\MediaHouseTile2.h" />
+    <ClInclude Include="..\Header\MiniMap.h" />
+    <ClInclude Include="..\Header\MiniMapIcon.h" />
+    <ClInclude Include="..\Header\Missile_Effect.h" />
+    <ClInclude Include="..\Header\PlayerIcon.h" />
+    <ClInclude Include="..\Header\RankingManager.h" />
+    <ClInclude Include="..\Header\RankingUI.h" />
+    <ClInclude Include="..\Header\Ray_Tri.h" />
+    <ClInclude Include="..\Header\Ray_Tri2.h" />
+    <ClInclude Include="..\Header\RecordingManager.h" />
+    <ClInclude Include="..\Header\RotateHouse.h" />
+    <ClInclude Include="..\Header\SkidMark.h" />
+    <ClInclude Include="..\Header\SkyBox.h" />
+    <ClInclude Include="..\Header\Smoke_Effect.h" />
+    <ClInclude Include="..\Header\SoundManager.h" />
+    <ClInclude Include="..\Header\SpeedUI.h" />
+    <ClInclude Include="..\Header\SpeedUIBackGround.h" />
+    <ClInclude Include="..\Header\SpeedUINumber.h" />
+    <ClInclude Include="..\Header\SpeedUIOutLine.h" />
+    <ClInclude Include="..\Header\SpeedUISub.h" />
+    <ClInclude Include="..\Header\Stage.h" />
+    <ClInclude Include="..\Header\Stage_MeshTest.h" />
+    <ClInclude Include="..\Header\Stage_ModelTest.h" />
+    <ClInclude Include="..\Header\Stage_NavTest.h" />
+    <ClInclude Include="..\Header\StartButton.h" />
+    <ClInclude Include="..\Header\StartCountingUI.h" />
+    <ClInclude Include="..\Header\Struct.h" />
+    <ClInclude Include="..\Header\Terrain.h" />
+    <ClInclude Include="..\Header\Tetris.h" />
+    <ClInclude Include="..\Header\TetrisManager.h" />
+    <ClInclude Include="..\Header\Tetris_Blue.h" />
+    <ClInclude Include="..\Header\Tetris_Bridge_Red.h" />
+    <ClInclude Include="..\Header\Tetris_Bridge_White.h" />
+    <ClInclude Include="..\Header\Tetris_Purple1.h" />
+    <ClInclude Include="..\Header\Tetris_Purple2.h" />
+    <ClInclude Include="..\Header\Tetris_Red.h" />
+    <ClInclude Include="..\Header\Tetris_Yellow1.h" />
+    <ClInclude Include="..\Header\Tetris_Yellow2.h" />
+    <ClInclude Include="..\Header\TimeUI.h" />
+    <ClInclude Include="..\Header\TrackMiniMap.h" />
+    <ClInclude Include="..\Header\Tree_Green1.h" />
+    <ClInclude Include="..\Header\Tree_Green2.h" />
+    <ClInclude Include="..\Header\Tree_HouseRed.h" />
+    <ClInclude Include="..\Header\Tree_Red.h" />
+    <ClInclude Include="..\Header\Value.h" />
+    <ClInclude Include="..\Header\WaitingRoom_BG.h" />
+    <ClInclude Include="..\Header\Water.h" />
+    <ClInclude Include="..\Header\Water_Effect.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Award_Box.cpp" />
+    <ClCompile Include="..\Code\Bazzi.cpp" />
+    <ClCompile Include="..\Code\Bazzi_Ani.cpp" />
+    <ClCompile Include="..\Code\Bomb_Effect.cpp" />
+    <ClCompile Include="..\Code\BoosterBox.cpp" />
+    <ClCompile Include="..\Code\Booster_Effect.cpp" />
+    <ClCompile Include="..\Code\BossMoney.cpp" />
+    <ClCompile Include="..\Code\BossStageBG.cpp" />
+    <ClCompile Include="..\Code\Boss_HP.cpp" />
+    <ClCompile Include="..\Code\Boss_Skill.cpp" />
+    <ClCompile Include="..\Code\Camera_Action.cpp" />
+    <ClCompile Include="..\Code\Camera_Free.cpp" />
+    <ClCompile Include="..\Code\Camera_MiniMap.cpp" />
+    <ClCompile Include="..\Code\Camera_Target.cpp" />
+    <ClCompile Include="..\Code\Cloud.cpp" />
+    <ClCompile Include="..\Code\Color_Paper.cpp" />
+    <ClCompile Include="..\Code\Crocodile.cpp" />
+    <ClCompile Include="..\Code\Crocodile_Face.cpp" />
+    <ClCompile Include="..\Code\Crocodile_Tail.cpp" />
+    <ClCompile Include="..\Code\Crocodile_Tree.cpp" />
+    <ClCompile Include="..\Code\Dao.cpp" />
+    <ClCompile Include="..\Code\DaoIcon.cpp" />
+    <ClCompile Include="..\Code\Dao_Ani.cpp" />
+    <ClCompile Include="..\Code\Debugger.cpp" />
+    <ClCompile Include="..\Code\Devil_Skill.cpp" />
+    <ClCompile Include="..\Code\Dizni.cpp" />
+    <ClCompile Include="..\Code\DizniIcon.cpp" />
+    <ClCompile Include="..\Code\Dizny_Ani.cpp" />
+    <ClCompile Include="..\Code\EndButton.cpp" />
+    <ClCompile Include="..\Code\EndCountUI.cpp" />
+    <ClCompile Include="..\Code\Engine_Effect.cpp" />
+    <ClCompile Include="..\Code\Fence_Direct1.cpp" />
+    <ClCompile Include="..\Code\Fence_Direct2.cpp" />
+    <ClCompile Include="..\Code\Fence_Rot.cpp" />
+    <ClCompile Include="..\Code\GameObject_Creator.cpp" />
+    <ClCompile Include="..\Code\GameStartButton.cpp" />
+    <ClCompile Include="..\Code\GreenBlock.cpp" />
+    <ClCompile Include="..\Code\House.cpp" />
+    <ClCompile Include="..\Code\ItemBox.cpp" />
+    <ClCompile Include="..\Code\ItemBox_Effect.cpp" />
+    <ClCompile Include="..\Code\ItemSlot.cpp" />
+    <ClCompile Include="..\Code\Item_Banana.cpp" />
+    <ClCompile Include="..\Code\Item_Booster.cpp" />
+    <ClCompile Include="..\Code\Item_Cloud.cpp" />
+    <ClCompile Include="..\Code\Item_Cloud_Small.cpp" />
+    <ClCompile Include="..\Code\Item_Devil.cpp" />
+    <ClCompile Include="..\Code\Item_First.cpp" />
+    <ClCompile Include="..\Code\Item_Icon.cpp" />
+    <ClCompile Include="..\Code\Item_Magnet.cpp" />
+    <ClCompile Include="..\Code\Item_Missile.cpp" />
+    <ClCompile Include="..\Code\Item_UFO.cpp" />
+    <ClCompile Include="..\Code\Item_Water_Bomb.cpp" />
+    <ClCompile Include="..\Code\Item_Water_Fly.cpp" />
+    <ClCompile Include="..\Code\JumpBox.cpp" />
+    <ClCompile Include="..\Code\KartRiderSign.cpp" />
+    <ClCompile Include="..\Code\LapsUI.cpp" />
+    <ClCompile Include="..\Code\Loading.cpp" />
+    <ClCompile Include="..\Code\Loading_BG.cpp" />
+    <ClCompile Include="..\Code\Loading_Img.cpp" />
+    <ClCompile Include="..\Code\Logo_BG.cpp" />
+    <ClCompile Include="..\Code\MainApp.cpp" />
+    <ClCompile Include="..\Code\MediaHouse.cpp" />
+    <ClCompile Include="..\Code\MediaHouseTile1.cpp" />
+    <ClCompile Include="..\Code\MediaHouseTile2.cpp" />
+    <ClCompile Include="..\Code\MiniMap.cpp" />
+    <ClCompile Include="..\Code\MiniMapIcon.cpp" />
+    <ClCompile Include="..\Code\Missile_Effect.cpp" />
+    <ClCompile Include="..\Code\PlayerIcon.cpp" />
+    <ClCompile Include="..\Code\RankingManager.cpp" />
+    <ClCompile Include="..\Code\RankingUI.cpp" />
+    <ClCompile Include="..\Code\Ray_Tri.cpp" />
+    <ClCompile Include="..\Code\Ray_Tri2.cpp" />
+    <ClCompile Include="..\Code\RecordingManager.cpp" />
+    <ClCompile Include="..\Code\RotateHouse.cpp" />
+    <ClCompile Include="..\Code\SkidMark.cpp" />
+    <ClCompile Include="..\Code\SkyBox.cpp" />
+    <ClCompile Include="..\Code\Smoke_Effect.cpp" />
+    <ClCompile Include="..\Code\SoundManager.cpp" />
+    <ClCompile Include="..\Code\SpeedUI.cpp" />
+    <ClCompile Include="..\Code\SpeedUIBackGround.cpp" />
+    <ClCompile Include="..\Code\SpeedUINumber.cpp" />
+    <ClCompile Include="..\Code\SpeedUIOutLine.cpp" />
+    <ClCompile Include="..\Code\SpeedUISub.cpp" />
+    <ClCompile Include="..\Code\Stage.cpp" />
+    <ClCompile Include="..\Code\Stage_MeshTest.cpp" />
+    <ClCompile Include="..\Code\Stage_ModelTest.cpp" />
+    <ClCompile Include="..\Code\Stage_NavTest.cpp" />
+    <ClCompile Include="..\Code\StartButton.cpp" />
+    <ClCompile Include="..\Code\StartCountingUI.cpp" />
+    <ClCompile Include="..\Code\Terrain.cpp" />
+    <ClCompile Include="..\Code\Tetris.cpp" />
+    <ClCompile Include="..\Code\TetrisManager.cpp" />
+    <ClCompile Include="..\Code\Tetris_Blue.cpp" />
+    <ClCompile Include="..\Code\Tetris_Bridge_Red.cpp" />
+    <ClCompile Include="..\Code\Tetris_Bridge_White.cpp" />
+    <ClCompile Include="..\Code\Tetris_Purple1.cpp" />
+    <ClCompile Include="..\Code\Tetris_Purple2.cpp" />
+    <ClCompile Include="..\Code\Tetris_Red.cpp" />
+    <ClCompile Include="..\Code\Tetris_Yellow1.cpp" />
+    <ClCompile Include="..\Code\Tetris_Yellow2.cpp" />
+    <ClCompile Include="..\Code\TimeUI.cpp" />
+    <ClCompile Include="..\Code\TrackMiniMap.cpp" />
+    <ClCompile Include="..\Code\Tree_Green1.cpp" />
+    <ClCompile Include="..\Code\Tree_Green2.cpp" />
+    <ClCompile Include="..\Code\Tree_HouseRed.cpp" />
+    <ClCompile Include="..\Code\Tree_Red.cpp" />
+    <ClCompile Include="..\Code\WaitingRoom_BG.cpp" />
+    <ClCompile Include="..\Code\Water.cpp" />
+    <ClCompile Include="..\Code\Water_Effect.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

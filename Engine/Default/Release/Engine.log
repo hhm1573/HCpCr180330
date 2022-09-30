@@ -1,0 +1,393 @@
+﻿  Base.cpp
+..\Code\Base.cpp(6): warning C4273: 'Engine::CBase::CBase': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Base.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Base.cpp(11): warning C4273: 'Engine::CBase::AddRef': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Base.h(18): note: 'AddRef'의 이전 정의를 참조하십시오.
+..\Code\Base.cpp(16): warning C4273: 'Engine::CBase::Release': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Base.h(21): note: 'Release'의 이전 정의를 참조하십시오.
+  Camera.cpp
+..\Code\Camera.cpp(4): warning C4273: 'Engine::CCamera::CCamera': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(11): warning C4273: 'Engine::CCamera::CCamera': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(13): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(25): warning C4273: 'Engine::CCamera::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(27): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(36): warning C4273: 'Engine::CCamera::Update': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(28): note: 'Update'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(41): warning C4273: 'Engine::CCamera::LastUpdate': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(29): note: 'LastUpdate'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(49): warning C4273: 'Engine::CCamera::Compute_ViewMat': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(37): note: 'Compute_ViewMat'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(74): warning C4273: 'Engine::CCamera::Compute_ProjMat': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(38): note: 'Compute_ProjMat'의 이전 정의를 참조하십시오.
+..\Code\Camera.cpp(88): warning C4273: 'Engine::CCamera::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Camera.h(43): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Collisioner.cpp
+..\Code\Collisioner.cpp(4): warning C4273: 'Engine::CCollisioner::CCollisioner': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(10): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(9): warning C4273: 'Engine::CCollisioner::CCollisioner': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(14): warning C4273: 'Engine::CCollisioner::Update': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(19): note: 'Update'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(52): warning C4273: 'Engine::CCollisioner::Add_Collision': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(20): note: 'Add_Collision'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(63): warning C4273: 'Engine::CCollisioner::Add_CollisionAABB': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(21): note: 'Add_CollisionAABB'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(73): warning C4273: 'Engine::CCollisioner::Update_AABB': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(23): note: 'Update_AABB'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(113): warning C4273: 'Engine::CCollisioner::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(26): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(119): warning C4273: 'Engine::CCollisioner::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(27): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\Collisioner.cpp(125): warning C4273: 'Engine::CCollisioner::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Collisioner.h(29): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Component.cpp
+..\Code\Component.cpp(6): warning C4273: 'Engine::CComponent::CComponent': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Component.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Component.cpp(12): warning C4273: 'Engine::CComponent::CComponent': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Component.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Component.cpp(18): warning C4273: 'Engine::CComponent::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Component.h(20): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  ComponentMgr.cpp
+..\Code\ComponentMgr.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'Component.h': No such file or directory
+  CubeCol.cpp
+..\Code\CubeCol.cpp(6): warning C4273: 'Engine::CCubeCol::CCubeCol': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(11): warning C4273: 'Engine::CCubeCol::CCubeCol': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(16): warning C4273: 'Engine::CCubeCol::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(16): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(122): warning C4273: 'Engine::CCubeCol::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(17): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(132): warning C4273: 'Engine::CCubeCol::SetIndex': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(19): note: 'SetIndex'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(139): warning C4273: 'Engine::CCubeCol::SetColor': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(22): note: 'SetColor'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(154): warning C4273: 'Engine::CCubeCol::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(25): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(167): warning C4273: 'Engine::CCubeCol::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(26): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\CubeCol.cpp(175): warning C4273: 'Engine::CCubeCol::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeCol.h(28): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  CubeTex.cpp
+..\Code\CubeTex.cpp(4): warning C4273: 'Engine::CCubeTex::CCubeTex': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\CubeTex.cpp(9): warning C4273: 'Engine::CCubeTex::CCubeTex': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\CubeTex.cpp(14): warning C4273: 'Engine::CCubeTex::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(16): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\CubeTex.cpp(101): warning C4273: 'Engine::CCubeTex::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(17): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\CubeTex.cpp(113): warning C4273: 'Engine::CCubeTex::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(20): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\CubeTex.cpp(125): warning C4273: 'Engine::CCubeTex::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(21): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\CubeTex.cpp(130): warning C4273: 'Engine::CCubeTex::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\CubeTex.h(23): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Frame.cpp
+  FrameMgr.cpp
+..\Code\FrameMgr.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'Frame.h': No such file or directory
+  GameObject.cpp
+..\Code\GameObject.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'ComponentMgr.h': No such file or directory
+  GameObjectMgr.cpp
+..\Code\GameObjectMgr.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  GraphicDev.cpp
+..\Code\GraphicDev.cpp(6): warning C4273: 'm_pInstance': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(8): note: 'private: static Engine::CGraphicDev * Engine::CGraphicDev::m_pInstance'의 이전 정의를 참조하십시오.
+..\Code\GraphicDev.cpp(6): error C2491: 'Engine::CGraphicDev::m_pInstance': dllimport 정적 데이터 멤버을(를) 정의할 수 없습니다.
+..\Code\GraphicDev.cpp(6): warning C4273: 'Engine::CGraphicDev::GetInstance': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(8): note: 'GetInstance'의 이전 정의를 참조하십시오.
+..\Code\GraphicDev.cpp(6): warning C4273: 'Engine::CGraphicDev::DestroyInstance': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(8): note: 'DestroyInstance'의 이전 정의를 참조하십시오.
+..\Code\GraphicDev.cpp(11): warning C4273: 'Engine::CGraphicDev::CGraphicDev': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(14): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\GraphicDev.cpp(17): warning C4273: 'Engine::CGraphicDev::Initialize_Graphic_Device': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(27): note: 'Initialize_Graphic_Device'의 이전 정의를 참조하십시오.
+..\Code\GraphicDev.cpp(61): warning C4273: 'Engine::CGraphicDev::SetParameters': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(29): note: 'SetParameters'의 이전 정의를 참조하십시오.
+..\Code\GraphicDev.cpp(84): warning C4273: 'Engine::CGraphicDev::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\GraphicDev.h(37): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  InputDev.cpp
+..\Code\InputDev.cpp(3): warning C4273: 'm_pInstance': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(10): note: 'private: static Engine::CInputDev * Engine::CInputDev::m_pInstance'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(3): error C2491: 'Engine::CInputDev::m_pInstance': dllimport 정적 데이터 멤버을(를) 정의할 수 없습니다.
+..\Code\InputDev.cpp(3): warning C4273: 'Engine::CInputDev::GetInstance': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(10): note: 'GetInstance'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(3): warning C4273: 'Engine::CInputDev::DestroyInstance': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(10): note: 'DestroyInstance'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(6): warning C4273: 'Engine::CInputDev::CInputDev': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(17): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(10): warning C4273: 'Engine::CInputDev::Ready_Input_Device': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(32): note: 'Ready_Input_Device'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(25): warning C4273: 'Engine::CInputDev::SetUp_Input_Device_State': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(33): note: 'SetUp_Input_Device_State'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(40): warning C4273: 'Engine::CInputDev::Ready_Device_KeyBoard': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(35): note: 'Ready_Device_KeyBoard'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(64): warning C4273: 'Engine::CInputDev::Ready_Device_Mouse': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(36): note: 'Ready_Device_Mouse'의 이전 정의를 참조하십시오.
+..\Code\InputDev.cpp(84): warning C4273: 'Engine::CInputDev::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\InputDev.h(54): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Layer.cpp
+..\Code\Layer.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  MathMgr.cpp
+..\Code\MathMgr.cpp(6): warning C4273: 'Engine::CMathMgr::CMathMgr': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\MathMgr.h(10): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\MathMgr.cpp(10): warning C4273: 'Engine::CMathMgr::IntersectLine': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\MathMgr.h(14): note: 'IntersectLine'의 이전 정의를 참조하십시오.
+..\Code\MathMgr.cpp(25): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\Code\MathMgr.cpp(26): warning C4244: '=': 'double'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\Code\MathMgr.cpp(32): warning C4273: 'Engine::CMathMgr::IntersectLine': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\MathMgr.h(15): note: 'IntersectLine'의 이전 정의를 참조하십시오.
+..\Code\MathMgr.cpp(47): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+..\Code\MathMgr.cpp(48): warning C4244: '=': 'double'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Model.cpp
+..\Code\Model.cpp(6): warning C4273: 'Engine::CModel::CModel': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(22): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(11): warning C4273: 'Engine::CModel::CModel': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(23): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(23): warning C4273: 'Engine::CModel::Initialize_Prototype': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(36): note: 'Initialize_Prototype'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(55): warning C4273: 'Engine::CModel::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(37): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(65): warning C4273: 'Engine::CModel::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(45): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(85): warning C4273: 'Engine::CModel::Initialize_Component': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(47): note: 'Initialize_Component'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(114): warning C4273: 'Engine::CModel::Initialize_Texture': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(51): note: 'Initialize_Texture'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(136): warning C4273: 'Engine::CModel::Find_Model': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(54): note: 'Find_Model'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(151): warning C4273: 'Engine::CModel::Move_Forward': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(56): note: 'Move_Forward'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(169): warning C4273: 'Engine::CModel::Move_Backward': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(57): note: 'Move_Backward'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(187): warning C4273: 'Engine::CModel::Move_Left': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(58): note: 'Move_Left'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(205): warning C4273: 'Engine::CModel::Move_Right': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(59): note: 'Move_Right'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(223): warning C4273: 'Engine::CModel::Move_Up': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(60): note: 'Move_Up'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(241): warning C4273: 'Engine::CModel::Move_Down': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(61): note: 'Move_Down'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(261): warning C4273: 'Engine::CModel::Rotation_X': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(63): note: 'Rotation_X'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(288): warning C4273: 'Engine::CModel::Rotation_Y': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(64): note: 'Rotation_Y'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(333): warning C4273: 'Engine::CModel::Rotation_Z': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(65): note: 'Rotation_Z'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(372): warning C4273: 'Engine::CModel::Rotation_X2': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(67): note: 'Rotation_X2'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(398): warning C4273: 'Engine::CModel::Rotation_Y2': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(68): note: 'Rotation_Y2'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(426): warning C4273: 'Engine::CModel::Rotation_Z2': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(69): note: 'Rotation_Z2'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(454): warning C4273: 'Engine::CModel::Scaling_X': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(71): note: 'Scaling_X'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(474): warning C4273: 'Engine::CModel::Scaling_Y': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(72): note: 'Scaling_Y'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(494): warning C4273: 'Engine::CModel::Scaling_Z': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(73): note: 'Scaling_Z'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(514): warning C4273: 'Engine::CModel::Get_Model_Pos': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(77): note: 'Get_Model_Pos'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(527): warning C4273: 'Engine::CModel::Get_Model_Scale_X': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(78): note: 'Get_Model_Scale_X'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(532): warning C4273: 'Engine::CModel::Get_Model_Scale_Y': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(79): note: 'Get_Model_Scale_Y'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(537): warning C4273: 'Engine::CModel::Get_Model_Scale_Z': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(80): note: 'Get_Model_Scale_Z'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(542): warning C4273: 'Engine::CModel::Set_Model_Pos': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(83): note: 'Set_Model_Pos'의 이전 정의를 참조하십시오.
+..\Code\Model.cpp(555): warning C4273: 'Engine::CModel::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Model.h(98): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  MyLocalInfo.cpp
+..\Code\MyLocalInfo.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'VIBuffer.h': No such file or directory
+  MyLocalInfo_CubeCol.cpp
+..\Code\MyLocalInfo_CubeCol.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'CubeCol.h': No such file or directory
+  MyMesh.cpp
+..\Code\MyMesh.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'CubeCol.h': No such file or directory
+  NavMesh.cpp
+..\Code\NavMesh.cpp(6): warning C4273: 'Engine::CNavMesh::CNavMesh': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(10): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(11): warning C4273: 'Engine::CNavMesh::CNavMesh': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(16): warning C4273: 'Engine::CNavMesh::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(18): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(146): warning C4273: 'Engine::CNavMesh::Get_FromPos': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(20): note: 'Get_FromPos'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(185): warning C4273: 'Engine::CNavMesh::Get_First': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(21): note: 'Get_First'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(192): warning C4273: 'Engine::CNavMesh::Get_Last': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(22): note: 'Get_Last'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(199): warning C4273: 'Engine::CNavMesh::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(27): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(209): warning C4273: 'Engine::CNavMesh::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(28): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\NavMesh.cpp(215): warning C4273: 'Engine::CNavMesh::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\NavMesh.h(30): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  컴파일하고 있습니다...
+  RectCol.cpp
+..\Code\RectCol.cpp(5): warning C4273: 'Engine::CRectCol::CRectCol': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(10): warning C4273: 'Engine::CRectCol::CRectCol': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(15): warning C4273: 'Engine::CRectCol::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(16): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(71): warning C4273: 'Engine::CRectCol::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(17): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(83): warning C4273: 'Engine::CRectCol::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(20): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(95): warning C4273: 'Engine::CRectCol::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(21): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(100): warning C4273: 'Engine::CRectCol::Set_Verticies': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(23): note: 'Set_Verticies'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(114): warning C4273: 'Engine::CRectCol::Reset_Verticies': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(24): note: 'Reset_Verticies'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(128): warning C4273: 'Engine::CRectCol::SetColor': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(25): note: 'SetColor'의 이전 정의를 참조하십시오.
+..\Code\RectCol.cpp(143): warning C4273: 'Engine::CRectCol::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectCol.h(28): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  RectTex.cpp
+..\Code\RectTex.cpp(5): warning C4273: 'Engine::CRectTex::CRectTex': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\RectTex.cpp(10): warning C4273: 'Engine::CRectTex::CRectTex': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\RectTex.cpp(15): warning C4273: 'Engine::CRectTex::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(16): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\RectTex.cpp(71): warning C4273: 'Engine::CRectTex::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(17): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\RectTex.cpp(83): warning C4273: 'Engine::CRectTex::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(20): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\RectTex.cpp(95): warning C4273: 'Engine::CRectTex::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(21): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\RectTex.cpp(100): warning C4273: 'Engine::CRectTex::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\RectTex.h(23): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Renderer.cpp
+..\Code\Renderer.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  Scene.cpp
+..\Code\Scene.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'ComponentMgr.h': No such file or directory
+  SceneMgr.cpp
+..\Code\SceneMgr.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'Scene.h': No such file or directory
+  Sphere_Buffer.cpp
+..\Code\Sphere_Buffer.cpp(6): warning C4273: 'Engine::CSphere_Buffer::CSphere_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(14): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Sphere_Buffer.cpp(11): warning C4273: 'Engine::CSphere_Buffer::CSphere_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(15): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Sphere_Buffer.cpp(16): warning C4273: 'Engine::CSphere_Buffer::Ready_Sphere_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(19): note: 'Ready_Sphere_Buffer'의 이전 정의를 참조하십시오.
+..\Code\Sphere_Buffer.cpp(85): warning C4273: 'Engine::CSphere_Buffer::Render_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(20): note: 'Render_Buffer'의 이전 정의를 참조하십시오.
+..\Code\Sphere_Buffer.cpp(98): warning C4273: 'Engine::CSphere_Buffer::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(23): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\Sphere_Buffer.cpp(110): warning C4273: 'Engine::CSphere_Buffer::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(24): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\Sphere_Buffer.cpp(115): warning C4273: 'Engine::CSphere_Buffer::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Sphere_Buffer.h(26): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Terrain_Buffer.cpp
+..\Code\Terrain_Buffer.cpp(4): warning C4273: 'Engine::CTerrain_Buffer::CTerrain_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(10): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Terrain_Buffer.cpp(9): warning C4273: 'Engine::CTerrain_Buffer::CTerrain_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Terrain_Buffer.cpp(14): warning C4273: 'Engine::CTerrain_Buffer::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(14): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\Terrain_Buffer.cpp(134): warning C4273: 'Engine::CTerrain_Buffer::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(15): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\Terrain_Buffer.cpp(146): warning C4273: 'Engine::CTerrain_Buffer::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(23): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\Terrain_Buffer.cpp(158): warning C4273: 'Engine::CTerrain_Buffer::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(24): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\Terrain_Buffer.cpp(163): warning C4273: 'Engine::CTerrain_Buffer::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Terrain_Buffer.h(25): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Texture.cpp
+..\Code\Texture.cpp(6): warning C4273: 'Engine::CTexture::CTexture': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(14): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Texture.cpp(11): warning C4273: 'Engine::CTexture::CTexture': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(15): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Texture.cpp(19): warning C4273: 'Engine::CTexture::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(23): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\Texture.cpp(53): warning C4273: 'Engine::CTexture::SetUp_OnGraphicDev': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(24): note: 'SetUp_OnGraphicDev'의 이전 정의를 참조하십시오.
+..\Code\Texture.cpp(64): warning C4273: 'Engine::CTexture::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(27): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\Texture.cpp(76): warning C4273: 'Engine::CTexture::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(28): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\Texture.cpp(81): warning C4273: 'Engine::CTexture::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Texture.h(30): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Timer.cpp
+  TimerMgr.cpp
+..\Code\TimerMgr.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'Timer.h': No such file or directory
+  Transform.cpp
+..\Code\Transform.cpp(2): fatal error C1083: 포함 파일을 열 수 없습니다. 'VIBuffer.h': No such file or directory
+  TriCol.cpp
+..\Code\TriCol.cpp(6): warning C4273: 'Engine::CTriCol::CTriCol': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\TriCol.cpp(11): warning C4273: 'Engine::CTriCol::CTriCol': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\TriCol.cpp(16): warning C4273: 'Engine::CTriCol::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(16): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\TriCol.cpp(51): warning C4273: 'Engine::CTriCol::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(17): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\TriCol.cpp(62): warning C4273: 'Engine::CTriCol::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(20): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\TriCol.cpp(74): warning C4273: 'Engine::CTriCol::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(21): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\TriCol.cpp(79): warning C4273: 'Engine::CTriCol::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\TriCol.h(24): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  Vehicle.cpp
+..\Code\Vehicle.cpp(19): warning C4273: 'Engine::CVehicle::CVehicle': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(13): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(24): warning C4273: 'Engine::CVehicle::CVehicle': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(14): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(39): warning C4273: 'Engine::CVehicle::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(34): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(51): warning C4273: 'Engine::CVehicle::Set_Inform': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(35): note: 'Set_Inform'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(60): warning C4273: 'Engine::CVehicle::Accelerate': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(37): note: 'Accelerate'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(72): warning C4273: 'Engine::CVehicle::Braking': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(38): note: 'Braking'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(84): warning C4273: 'Engine::CVehicle::Accelerate_Reverse': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(39): note: 'Accelerate_Reverse'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(96): warning C4273: 'Engine::CVehicle::Turn_Right': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(40): note: 'Turn_Right'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(106): warning C4273: 'Engine::CVehicle::Turn_Left': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(41): note: 'Turn_Left'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(116): warning C4273: 'Engine::CVehicle::Update': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(42): note: 'Update'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(163): warning C4273: 'Engine::CVehicle::Drift': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(44): note: 'Drift'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(169): warning C4273: 'Engine::CVehicle::Update_Direction': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(46): note: 'Update_Direction'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(217): warning C4273: 'Engine::CVehicle::Update_Angular': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(47): note: 'Update_Angular'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(265): warning C4273: 'Engine::CVehicle::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(58): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(277): warning C4273: 'Engine::CVehicle::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(59): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\Vehicle.cpp(282): warning C4273: 'Engine::CVehicle::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\Vehicle.h(61): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  VIBuffer.cpp
+..\Code\VIBuffer.cpp(6): warning C4273: 'Engine::CVIBuffer::CVIBuffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\VIBuffer.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\VIBuffer.cpp(11): warning C4273: 'Engine::CVIBuffer::CVIBuffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\VIBuffer.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\VIBuffer.cpp(35): warning C4273: 'Engine::CVIBuffer::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\VIBuffer.h(34): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\VIBuffer.cpp(46): warning C4273: 'Engine::CVIBuffer::Set_Transform': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\VIBuffer.h(35): note: 'Set_Transform'의 이전 정의를 참조하십시오.
+..\Code\VIBuffer.cpp(102): warning C4273: 'Engine::CVIBuffer::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\VIBuffer.h(54): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
+  ViewPort_Buffer.cpp
+..\Code\ViewPort_Buffer.cpp(6): warning C4273: 'Engine::CViewPort_Buffer::CViewPort_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(11): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\ViewPort_Buffer.cpp(11): warning C4273: 'Engine::CViewPort_Buffer::CViewPort_Buffer': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(12): note: '{ctor}'의 이전 정의를 참조하십시오.
+..\Code\ViewPort_Buffer.cpp(16): warning C4273: 'Engine::CViewPort_Buffer::Initialize': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(16): note: 'Initialize'의 이전 정의를 참조하십시오.
+..\Code\ViewPort_Buffer.cpp(72): warning C4273: 'Engine::CViewPort_Buffer::Render': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(17): note: 'Render'의 이전 정의를 참조하십시오.
+..\Code\ViewPort_Buffer.cpp(84): warning C4273: 'Engine::CViewPort_Buffer::Create': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(20): note: 'Create'의 이전 정의를 참조하십시오.
+..\Code\ViewPort_Buffer.cpp(96): warning C4273: 'Engine::CViewPort_Buffer::Clone': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(21): note: 'Clone'의 이전 정의를 참조하십시오.
+..\Code\ViewPort_Buffer.cpp(101): warning C4273: 'Engine::CViewPort_Buffer::ReleaseMemory': dll 링크가 일치하지 않습니다.
+  c:\users\administrator\desktop\백업\81_sr_kartrider_3_26_단아 예진 합침 (2)\engine\code\..\Header\ViewPort_Buffer.h(23): note: 'ReleaseMemory'의 이전 정의를 참조하십시오.
